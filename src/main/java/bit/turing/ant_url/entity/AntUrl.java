@@ -11,13 +11,13 @@ public class AntUrl {
     @Column(name = "id")
     private Long id;
 
-    @Column(name = "title", length = 512, nullable = false)
+    @Column(name = "title", length = 512, nullable = true)
     private String title;
 
     @Column(name = "url", length = 4000, nullable = false)
     private String url;
 
-    @Column(name = "domain", length = 1024, nullable = false)
+    @Column(name = "domain", length = 1024, nullable = true)
     private String domain;
 
     @Column(name = "alias", length = 1024, nullable = false)
