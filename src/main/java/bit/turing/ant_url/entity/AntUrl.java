@@ -20,7 +20,7 @@ public class AntUrl {
     @Column(name = "domain", length = 1024, nullable = true)
     private String domain;
 
-    @Column(name = "alias", length = 1024, nullable = false)
+    @Column(name = "alias", length = 1024, nullable = false, unique = true)
     private String alias;
 
     public Long getId() {

@@ -1,1 +1,4 @@
 # ant-url
+
+Mysql
+ALTER TABLE anturl AUTO_INCREMENT = 40000000;
